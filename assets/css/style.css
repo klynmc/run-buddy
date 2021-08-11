@@ -4,16 +4,17 @@
     box-sizing: border-box;
 }
 
+/*apply styles to body*/
 body {
     color: #39a6b2;
     font-family: Arial, Helvetica, sans-serif;
 }
+
 /* apply styles to <header> */
 header {
     padding: 20px 35px;
     background-color: #39a6b2;
 }
-
 header h1 {
     font-weight: bold;
     font-size: 36px;
@@ -21,7 +22,6 @@ header h1 {
     margin: 0;
     display: inline;
 }
-
 header a {
     text-decoration: none;
     color: #fce138;
@@ -38,6 +38,8 @@ header nav ul li a {
     font-weight: lighter;
     font-size: 22px;
 }
+
+/* apply styles to footer*/
 footer {
     background-color: #fce138;
     width: 100%;
@@ -56,4 +58,56 @@ footer div {
 }
 footer a {
     color: #024e76;
+}
+
+/* apply styles to hero section*/
+section {
+    padding: 60px;
+}
+.hero {
+    background-image: url("../images/hero-bg.jpg");
+    height: 600px;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.hero-form {
+    background-color: #fce138;
+    padding: 20px;
+    width: 500px;
+    color: #024e76;
+    border-style: solid;
+    border-width: 3px;
+    border-color: #024e76;
+    position: absolute;
+    bottom: 120px;
+    right: 140px;
+}
+.hero-form h3 {
+    font-size: 24px;
+    margin: 0;
+}
+.hero-form p {
+    margin: 5px 0 15px 0;
+}
+.form-input {
+    border: 1px solid #024e76;
+    display: block;
+    padding: 7px 15px;
+    font-size: 16px;
+    color: #024e76;
+    width: 100%;
+    margin-bottom: 15px;
+}
+.hero-form label {
+    margin: 0 5px;
+}
+
+/* submittion button*/
+.hero-form button {
+    color: #fce138;
+    background-color: #024e76;
+    border: none;
+    font-size: 15px;
+    padding: 10px 20px;
 }
